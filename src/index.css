@@ -1,0 +1,66 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(6, 99, 124);
+  color: #d3fffb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 70vw;
+}
+h3 {
+  font-size: 4rem;
+  text-align: center;
+  color: rgb(82, 199, 179);
+  -webkit-text-stroke: 1px white;
+  text-shadow: 3px 3px black;
+  margin-bottom: 50px;
+}
+.title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 2rem;
+  text-shadow: 1px 1px black, 2px 2px black;
+}
+.navigator {
+  height: 10px;
+  width: 100%;
+  background-color: rgb(4, 24, 36);
+  border-radius: 50px;
+  margin: 50px 0;
+  box-shadow: 2px 2px 5px black, inset 2px 2px 5px rgb(90, 129, 145);
+}
+.bar {
+  background-color: rgb(82, 199, 179);
+  box-shadow: 0 0 2px black, inset 1px 1px 2px rgb(0, 0, 0);
+  border-radius: 30px;
+  height: 100%;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.controls div {
+  padding: 15px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: rgb(15, 55, 71);
+  border-radius: 50px;
+  box-shadow: 2px 2px 5px black, inset 2px 2px 5px rgb(90, 129, 145);
+  text-shadow: 1px 1px black;
+}
+.controls .play {
+  color: rgb(255, 255, 255);
+  background-color: rgb(15, 55, 71);
+}
+.controls .pause {
+  background-color: rgb(82, 199, 179);
+  color: rgb(15, 55, 71);
+}
